@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    min-height: 100vh;
+}
+
+body, div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grandparent {
+    background-color: red;
+    width: 500px;
+    height: 500px;
+}
+
+.parent {
+    background-color: blue;
+    width: 250px;
+    height: 250px;
+}
+
+.child {
+    background-color: green;
+    width: 125px;
+    height: 125px;
+}
